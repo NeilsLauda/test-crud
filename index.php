@@ -20,12 +20,12 @@
       <div class="card card-body">
         <form action="save_task.php" method="POST">
           <div class="form-group">
-            <input type="text" name="title" class="form-control" placeholder="Task Title" autofocus>
+            <input type="text" name="title" class="form-control" placeholder="Titulo de la tarea" autofocus>
           </div>
           <div class="form-group">
-            <textarea name="description" rows="2" class="form-control" placeholder="Task Description"></textarea>
+            <textarea name="description" rows="2" class="form-control" placeholder="Descripcion de la tarea"></textarea>
           </div>
-          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
+          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar tarea">
         </form>
       </div>
     </div>
